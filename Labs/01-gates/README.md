@@ -6,7 +6,7 @@
 3. [Ideas for other tasks](#Ideas-for-other-tasks)
  
  ## Online simulator
-    ![and_gates](../../Images/simulator_basic_gates.png)
+![and_gates](../../Images/simulator_basic_gates.png)
 
     | **A** | **NOT** |
     | :-: | :-: |
