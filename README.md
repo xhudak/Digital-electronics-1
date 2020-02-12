@@ -3,7 +3,7 @@
 | **Computer lab exercise** | **Description** |
 | :-- | :-- |
 | [01-gates](Labs/01-gates) | Lab 1: Git version-control system, Online simulator |
-| ... | Lab 2: Xilinx ISE Design Suite |
+| [02-ise](Labs/02-ise) | Lab 2: Xilinx ISE Design Suite |
 | ... | Lab 3: ... |
 | ... | Lab 4: ... |
 | ... | Lab 5: ... |
