@@ -60,7 +60,10 @@
     [Karnaugh maps Editor](https://www.mathematik.uni-marburg.de/~thormae/lectures/ti1/code/karnaughmap/) as Encoded URL link.
     [VHDL cheatsheet](https://www.csee.umbc.edu/portal/help/VHDL/operator.html)
     >
-
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    ![vdhl_generated_schematic](../../Images/schematic.png)
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    
 ## Used hardware components
 
 1. CoolRunner-II CPLD starter board: [Manual](../../Docs/coolrunner-ii_rm.pdf), [Schematic](../../Docs/coolrunner-ii_sch.pdf).
