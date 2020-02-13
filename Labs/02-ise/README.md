@@ -45,13 +45,6 @@
 
     &nbsp;
 
-    &nbsp;
-
-    &nbsp;
-
-    &nbsp;
-
-    &nbsp;
 
     &nbsp;
 
@@ -59,7 +52,7 @@
 
     &nbsp;
 
-    ![equation](https://latex.codecogs.com/gif.latex?y_%7BA%3CB%7D%5E%7BPoS%2Cmin%7D%20%3D)
+    ![equation](https://latex.codecogs.com/gif.latex?y_%7BA%3CB%7D%5E%7BPoS%2Cmin%7D%3D%5Coverline%7BA%7D%20%5Ccdot%20B)
     
     &nbsp;
 
