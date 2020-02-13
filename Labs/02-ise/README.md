@@ -39,9 +39,9 @@
 
     Create K-maps for all three functions.
     
-    ![karnaughs_map](Images/karnaugh_map_1.png)
-    ![karnaughs_map](Images/karnaugh_map_2.png)
-    ![karnaughs_map](Images/karnaugh_map_3.png)
+    ![karnaughs_map](../../Images/karnaugh_map_1.png)
+    ![karnaughs_map](../../Images/karnaugh_map_2.png)
+    ![karnaughs_map](../../Images/karnaugh_map_3.png)
 
     &nbsp;
 
