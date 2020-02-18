@@ -30,6 +30,14 @@
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
 
+![karnaughs_map_a](../../Images/03-a.png)
+![karnaughs_map_b](../../Images/03-b.png)
+![karnaughs_map_c](../../Images/03-c.png)
+![karnaughs_map_d](../../Images/03-d.png)
+![karnaughs_map_e](../../Images/03-e.png)
+![karnaughs_map_f](../../Images/03-f.png)
+![karnaughs_map_g](../../Images/03-g.png)
+
 
 ## Used hardware components
 
