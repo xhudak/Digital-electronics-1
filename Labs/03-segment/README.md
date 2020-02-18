@@ -39,10 +39,6 @@
 
 ## Hex to seven-segment VHDL code
 
-1. Follow instructions from wiki, [create a new project in ISE](https://github.com/tomas-fryza/Digital-electronics-1/wiki) titled `hex_to_segment` for XC2C256-TQ144 CPLD device.
-
-2. Create a new source file **Project > New Source... > VHDL Module**, name it `hex_to_7seg` and copy + paste the following code template.
-
 ![hex_to_7seg](../../Images/hex_to_7seg.svg)
 
 ```vhdl
@@ -108,12 +104,7 @@ begin
 end architecture Behavioral;
 ```
 
-3. Complete the decoding table for all input combinations and define the output signals to display hexadecimal symbols (0, 1, ..., 9, A, b, C, d, E, F). Use VHDL construction `when`-`else`. Save all files in menu **File > Save All**.
-
-
 ## Top level VHDL code
-
-1. Create a new source file **Project > New Source... > VHDL Module**, name it `top` and copy + paste the following code template.
 
 ![top](../../Images/top___hex_to_7seg.svg)
 
@@ -185,13 +176,3 @@ begin
 
 end architecture Behavioral;
 ```
-
-2. How is the sub-block of hex to 7-segment decoder connected to the top module?
-
-3. Follow instructions from wiki, create a constraints file, and [implement your design](https://github.com/tomas-fryza/Digital-electronics-1/wiki) to CoolRunner-II CPLD starter board.
-
-4. Write combination functions for LEDs.
-
-5. In menu **Tools > Schematic Viewer > RTL...** select **Start with a schematic of top-level block** and check the hierarchical structure of the module.
-
-6. In menu **Project > Design Summary/Reports** check **CPLD Fitter Report (Text)** for implemented functions.
