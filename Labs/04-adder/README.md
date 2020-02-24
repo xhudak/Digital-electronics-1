@@ -19,23 +19,30 @@ The purpose of this laboratory exercise is to design an adder. It is a type of d
 
     | **B** | **A** | **Carry** | **Sum** |
     | :-: | :-: | :-: | :-: |
-    | 0 | 0 |  |  |
-    | 0 | 1 |  |  |
-    | 1 | 0 |  |  |
-    | 1 | 1 |  |  |
+    | 0 | 0 | 0 | 0 |
+    | 0 | 1 | 1 | 0 |
+    | 1 | 0 | 1 | 0 |
+    | 1 | 1 | 0 | 1 |
+
+![karnaugh_map_of_half_adder_carry](../../Images/half_carry.png)
+![karnaugh_map_of_half_adder_summ](../../Images/half_sum.png)
 
 2. A full adder has three inputs and two outputs. The two inputs are A, B, and Carry input. The outputs are Carry output and Sum. Comlpete the full adder truth table and draw a logic diagram of both output functions.
 
     | **Cin** | **B** | **A** | **Cout** | **Sum** |
     | :-: | :-: | :-: | :-: | :-: |
-    | 0 | 0 | 0 |  |  |
-    | 0 | 0 | 1 |  |  |
-    | 0 | 1 | 0 |  |  |
-    | 0 | 1 | 1 |  |  |
-    | 1 | 0 | 0 |  |  |
-    | 1 | 0 | 1 |  |  |
-    | 1 | 1 | 0 |  |  |
-    | 1 | 1 | 1 |  |  |
+    | 0 | 0 | 0 | 0 | 0 |
+    | 0 | 0 | 1 | 0 | 1 |
+    | 0 | 1 | 0 | 0 | 1 |
+    | 0 | 1 | 1 | 1 | 0 |
+    | 1 | 0 | 0 | 0 | 1 |
+    | 1 | 0 | 1 | 1 | 0 |
+    | 1 | 1 | 0 | 1 | 0 |
+    | 1 | 1 | 1 | 1 | 1 |
+
+![karnaugh_map_of_full_adder_carry](../../Images/full_carry.png)
+![karnaugh_map_of_full_adder_summ](../../Images/full_sum.png)
+
 
 3. Find the relationship between half adder and full adder logic diagrams.
 
