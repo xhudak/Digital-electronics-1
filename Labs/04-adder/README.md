@@ -24,8 +24,8 @@ The purpose of this laboratory exercise is to design an adder. It is a type of d
     | 1 | 0 | 1 | 0 |
     | 1 | 1 | 0 | 1 |
 
-![karnaugh_map_of_half_adder_carry](../../Images/half_carry.png)
-![karnaugh_map_of_half_adder_summ](../../Images/half_sum.png)
+![karnaugh_map_of_half_adder_carry](../../Images/half_carry.PNG)
+![karnaugh_map_of_half_adder_summ](../../Images/half_sum.PNG)
 
 2. A full adder has three inputs and two outputs. The two inputs are A, B, and Carry input. The outputs are Carry output and Sum. Comlpete the full adder truth table and draw a logic diagram of both output functions.
 
@@ -40,11 +40,13 @@ The purpose of this laboratory exercise is to design an adder. It is a type of d
     | 1 | 1 | 0 | 1 | 0 |
     | 1 | 1 | 1 | 1 | 1 |
 
-![karnaugh_map_of_full_adder_carry](../../Images/full_carry.png)
-![karnaugh_map_of_full_adder_summ](../../Images/full_sum.png)
+![karnaugh_map_of_full_adder_carry](../../Images/full_carry.PNG)
+![karnaugh_map_of_full_adder_summ](../../Images/full_sum.PNG)
 
 
 3. Find the relationship between half adder and full adder logic diagrams.
+Full adder je rozšírený o XOR, AND a OR z povodnej schémy half addera, ktorý sa skláda z XOR a AND.
+
 
 4. See schematic of the [CPLD expansion board](../../Docs/cpld_expansion.pdf) and find out the connection of LEDs, push buttons, and slide switches.
 
@@ -129,6 +131,8 @@ begin
 
     -- Logic functions for carry and sum outputs
     -- WRITE YOUR CODE HERE
+    carry_o <= (not b_i and a_i) or (b_i and not a_i);
+    sum_o <= b_i and a_i;
 
 end architecture Behavioral;
 ```
@@ -186,6 +190,7 @@ begin
                   -- ...
                   -- <component_signal> => actual_signal);
                   -- WRITE YOUR CODE HERE
+                  carry_o <= (carry_i and a_i) or (b_i and a_i) or (b_i and carry_i);
                  );
 
     HALFADDER1: entity work.half_adder
@@ -194,6 +199,7 @@ begin
                   -- ...
                   -- <component_signal> => actual_signal);
                   -- WRITE YOUR CODE HERE
+                  sum_o <= (not carry_i and not b_i and a_i) or (not b_i and carry_i and not a_i) or (not carry_i and b_i and not a_i) or (carry_i and b_i and a_i);
                  );
 
     -- Output carry
@@ -253,7 +259,7 @@ begin
 
     -- Combine two 3-bit inputs to internal signals s_data1 and s_data0
     -- WRITE YOUR CODE HERE
-
+    # Tuna uz asi pridem ex dí;
 
     --------------------------------------------------------------------
     -- Sub-blocks of three full_adders
