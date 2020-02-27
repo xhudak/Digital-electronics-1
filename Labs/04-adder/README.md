@@ -20,9 +20,9 @@ The purpose of this laboratory exercise is to design an adder. It is a type of d
     | **B** | **A** | **Carry** | **Sum** |
     | :-: | :-: | :-: | :-: |
     | 0 | 0 | 0 | 0 |
-    | 0 | 1 | 1 | 0 |
-    | 1 | 0 | 1 | 0 |
-    | 1 | 1 | 0 | 1 |
+    | 0 | 1 | 0 | 1 |
+    | 1 | 0 | 0 | 1 |
+    | 1 | 1 | 1 | 0 |
 
 ![karnaugh_map_of_half_adder_carry](../../Images/half_carry.PNG)
 ![karnaugh_map_of_half_adder_summ](../../Images/half_sum.PNG)
@@ -131,8 +131,8 @@ begin
 
     -- Logic functions for carry and sum outputs
     -- WRITE YOUR CODE HERE
-    carry_o <= (not b_i and a_i) or (b_i and not a_i);
-    sum_o <= b_i and a_i;
+    carry_o <= b_i and a_i;
+    sum_o <= (not b_i and a_i) or (b_i and not a_i);
 
 end architecture Behavioral;
 ```
@@ -190,7 +190,10 @@ begin
                   -- ...
                   -- <component_signal> => actual_signal);
                   -- WRITE YOUR CODE HERE
-                  carry_o <= (carry_i and a_i) or (b_i and a_i) or (b_i and carry_i);
+                  a_i => a_i,
+				  b_i => b_i,
+				  sum_o => s_sum0,
+			      carry_o => s_carry0
                  );
 
     HALFADDER1: entity work.half_adder
@@ -199,7 +202,10 @@ begin
                   -- ...
                   -- <component_signal> => actual_signal);
                   -- WRITE YOUR CODE HERE
-                  sum_o <= (not carry_i and not b_i and a_i) or (not b_i and carry_i and not a_i) or (not carry_i and b_i and not a_i) or (carry_i and b_i and a_i);
+                  a_i => s_sum0, 
+				  b_i => carry_i,
+				  sum_o => sum_o,
+				  carry_o => s_carry1
                  );
 
     -- Output carry
