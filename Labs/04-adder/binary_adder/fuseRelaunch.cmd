@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/lab661/Documents/xhudak/04-ise/binary_adder/full_adder_tb00_isim_beh.exe" -prj "/home/lab661/Documents/xhudak/04-ise/binary_adder/full_adder_tb00_beh.prj" "work.full_adder_tb00" 
