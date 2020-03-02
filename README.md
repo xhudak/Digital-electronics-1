@@ -6,7 +6,7 @@
 | [02-ise](Labs/02-ise) | Lab 2: Xilinx ISE Design Suite |
 | [03-segment](Labs/03-segment) | Lab 3: Hex to seven-segment decoder |
 | [04-adder](Labs/04-adder) | Lab 4: Binary adder |
-| ... | Lab 5: ... |
+| [05-counter_binary](Labs/05-counter_binary) | Lab 4: Binary counter |
 | ... | Lab 6: ... |
 | ... | Lab 7: ... |
 | ... | Lab 8: ... |
