@@ -8,7 +8,6 @@
 | [04-adder](Labs/04-adder) | Lab 4: Binary adder |
 | [05-counter_binary](Labs/05-counter_binary) | Lab 5: Binary counter |
 | [06-display_driver](Labs/06-display_driver) | Lab 6: Display driver for seven-segment display |
-| ... | Lab 7: ... |
-| ... | Lab 8: ... |
-| ... | Lab 9: ... |
-| [project](Labs/project) | Lab 10--13: Project |
+| [07-stopwatch](Labs/07-stopwatch) | Lab 7: Stopwatch |
+| [08-08-traffic_lights](Labs/08-traffic_lights) | Lab 8: Traffic light controller |
+| [project](Labs/project) | Lab Final Project |
