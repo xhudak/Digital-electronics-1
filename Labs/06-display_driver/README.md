@@ -113,12 +113,15 @@ begin
     --------------------------------------------------------------------
     -- Sub-block of clock_enable entity. Create s_en signal.
     --- WRITE YOUR CODE HERE
-
+    CLOCK_ENABLE0 : entity work.clock_enable
+    generic map (g_NPERIOD => x"0028")
+    port map (clk_i => clk_i, srst_n_i =>  srst_n_i, clock_enable_o => s_en);
 
     --------------------------------------------------------------------
     -- Sub-block of hex_to_7seg entity
     --- WRITE YOUR CODE HERE
-
+    HEX_TO_7SEG0 : entity work.hex_to_7seg
+	port map (hex_i => s_hex, seg_o => seg_o);
 
     --------------------------------------------------------------------
     -- p_select_cnt:
@@ -131,8 +134,10 @@ begin
         if rising_edge(clk_i) then  -- Rising clock edge
             if srst_n_i = '0' then  -- Synchronous reset (active low)
                 -- WRITE YOUR CODE HERE
+                s_cnt <= (others => '0');
             elsif s_en = '1' then
                 -- WRITE YOUR CODE HERE
+                s_cnt <= s_cnt + "01";
             end if;
         end if;
     end process p_select_cnt;
@@ -146,12 +151,28 @@ begin
         case s_cnt is
         when "00" =>
             -- WRITE YOUR CODE HERE
+            s_hex <= data0_i;																		
+            dig_o <= "1110";															
+            dp_o <= dp_i(0);
+            
         when "01" =>
             -- WRITE YOUR CODE HERE
+            s_hex <= data1_i;															
+            dig_o <= "1101";															
+            dp_o <= dp_i(1);
+                
         when "10" =>
             -- WRITE YOUR CODE HERE
+            s_hex <= data2_i;															
+            dig_o <= "1011";															
+            dp_o <= dp_i(2);
+                
         when others =>
             -- WRITE YOUR CODE HERE
+            s_hex <= data3_i;															
+            dig_o <= "0111";														
+            dp_o <= dp_i(3);
+                
         end case;
     end process p_mux;
 
@@ -210,12 +231,44 @@ begin
 
     -- Combine 4-bit inputs to internal signals
     -- WRITE YOUR CODE HERE
+    s_data0(0) <= SW0_CPLD;
+     s_data0(1) <= SW1_CPLD;
+     s_data0(2) <= SW2_CPLD;
+     s_data0(3) <= SW3_CPLD;
 
+     s_data1(0) <= SW4_CPLD;
+     s_data1(1) <= SW5_CPLD;
+     s_data1(2) <= SW6_CPLD;
+     s_data1(3) <= SW7_CPLD;
+
+     s_data2(0) <= SW8_CPLD;
+     s_data2(1) <= SW9_CPLD;
+     s_data2(2) <= SW10_CPLD;
+     s_data2(3) <= SW11_CPLD;
+
+     s_data3(0) <= SW12_CPLD;
+     s_data3(1) <= SW13_CPLD;
+     s_data3(2) <= SW14_CPLD;
+     s_data3(3) <= SW15_CPLD;
 
     --------------------------------------------------------------------
     -- Sub-block of driver_7seg entity
     --- WRITE YOUR CODE HERE
+    DRIVER_7SEG_00 : entity work.driver_7seg
+    port map (
+    clk_i => clk_i,
+    srst_n_i => BTN0,
+    data0_i  => s_data0,
+    data1_i  => s_data1,
+    data2_i  => s_data2,
+    data3_i  => s_data3,
+    dp_i     => "1011",  
 
+    dp_o     => disp_dp,
+    seg_o    => disp_seg_o,
+    dig_o    => disp_dig_o
+    );
+             
 end architecture Behavioral;
 ```
 
