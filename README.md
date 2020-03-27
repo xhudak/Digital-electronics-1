@@ -9,5 +9,5 @@
 | [05-counter_binary](Labs/05-couter_binary) | Lab 5: Binary counter |
 | [06-display_driver](Labs/06-display_driver) | Lab 6: Display driver for seven-segment display |
 | [07-stopwatch](Labs/07-stopwatch) | Lab 7: Stopwatch |
-| [08-08-traffic_lights](Labs/08-traffic_lights) | Lab 8: Traffic light controller |
+| [08-traffic_lights](Labs/08-traffic_lights) | Lab 8: Traffic light controller |
 | [project](Labs/project) | Lab Final Project |
