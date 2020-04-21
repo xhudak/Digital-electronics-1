@@ -9,6 +9,7 @@ TBD
 &nbsp;
   ![HC-SR04](../../Images/ultrazvuk_A.jpg)
 &nbsp;
+
 Senzor HC-SR04 merá vzdialenosť pomocou vysielaných ultrazvukových vĺn o frekvencií 40k Hz.
 
 Konfigurácia pinov:
@@ -20,6 +21,7 @@ Konfigurácia pinov:
 &nbsp;&nbsp;
   ![HC-SR04](../../Images/ultrazvuk_B.jpg)
 &nbsp;
+
 Pomocou senzoru dokážeme merať vzdialenosť dobou, ktorá uplynie od vyslania pulzu, odrazenia sa od objeku po jeho príjem.
 
 distance = (traveltime/2) * speed_of_sound
