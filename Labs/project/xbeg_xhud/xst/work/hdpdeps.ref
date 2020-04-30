@@ -1,0 +1,39 @@
+V3 19
+FL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/counter.vhd" 2020/04/30.23:35:03 P.20131013
+EN work/counter 1588282508 \
+      FL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/counter.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/counter/Behavioral 1588282509 \
+      FL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/counter.vhd" \
+      EN work/counter 1588282508
+FL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/double_dabble.vhd" 2020/04/30.22:00:35 P.20131013
+EN work/double_dabble 1588276839 \
+      FL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/double_dabble.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/double_dabble/Behavioral 1588276840 \
+      FL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/double_dabble.vhd" \
+      EN work/double_dabble 1588276839
+FL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/pulse_to_distance.vhd" 2020/04/30.21:34:44 P.20131013
+EN work/pulse_to_distance 0 \
+      FL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/pulse_to_distance.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/pulse_to_distance/Behavioral 0 \
+      FL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/pulse_to_distance.vhd" \
+      EN work/pulse_to_distance 0 CP counter
+FL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/trigger_pulse_generator.vhd" 2020/04/30.23:27:57 P.20131013
+EN work/trigger_pulse_generator 1588282510 \
+      FL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/trigger_pulse_generator.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/trigger_pulse_generator/Behavioral 1588282511 \
+      FL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/trigger_pulse_generator.vhd" \
+      EN work/trigger_pulse_generator 1588282510 CP counter
+FL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/ultrasonic_sensor.vhd" 2020/04/30.23:01:19 P.20131013
+EN work/ultrasonic_sensor 0 \
+      FL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/ultrasonic_sensor.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/ultrasonic_sensor/Behavioral 0 \
+      FL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/ultrasonic_sensor.vhd" \
+      EN work/ultrasonic_sensor 0 CP trigger_pulse_generator CP pulse_to_distance \
+      CP double_dabble

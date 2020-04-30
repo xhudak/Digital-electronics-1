@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="3312" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/pulse_to_distance.vhd</arg>&quot; Line <arg fmt="%d" index="2">29</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">reset_trigger_i</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/pulse_to_distance.vhd</arg>&quot; Line <arg fmt="%d" index="2">29</arg>. <arg fmt="%s" index="3">reset_trigger_i</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="820" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/pulse_to_distance.vhd</arg>&quot; Line <arg fmt="%d" index="2">29</arg>. Type of actual ports is not compatible with type of ports of <arg fmt="%s" index="3">counter</arg>.
+</msg>
+
+</messages>
+

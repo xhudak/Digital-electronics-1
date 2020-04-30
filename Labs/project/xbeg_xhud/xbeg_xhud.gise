@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="xbeg_xhud.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="counter.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="counter.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="double_dabble.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="double_dabble.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="double_dabble.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="trigger_pulse_generator.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="trigger_pulse_generator.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="trigger_pulse_generator.xst"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ultrasonic_sensor.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ultrasonic_sensor.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ultrasonic_sensor.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ultrasonic_sensor.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ultrasonic_sensor.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ultrasonic_sensor_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ultrasonic_sensor_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1588280498" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1588280498">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1588280498" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3020636746312048123" xil_pn:start_ts="1588280498">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1588282509" xil_pn:in_ck="-1866269416781880200" xil_pn:name="TRANEXT_xstsynthesize_xbr" xil_pn:prop_ck="-8355825168741991139" xil_pn:start_ts="1588282506">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="ultrasonic_sensor.lso"/>
+      <outfile xil_pn:name="ultrasonic_sensor.prj"/>
+      <outfile xil_pn:name="ultrasonic_sensor.syr"/>
+      <outfile xil_pn:name="ultrasonic_sensor.xst"/>
+      <outfile xil_pn:name="ultrasonic_sensor_vhdl.prj"/>
+      <outfile xil_pn:name="ultrasonic_sensor_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>
