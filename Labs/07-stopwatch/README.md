@@ -6,7 +6,7 @@ In this laboratory exercise you will implement several counters and create a sto
 
 [Video](https://youtu.be/B-whkwjdaxU)
 
-![stopwatch_photo](stopwatch_photo.jpg)
+![stopwatch_photo](../../Images/stopwatch_top.png)
 
 
 ## 1 Synchronize Git and create a new folder
