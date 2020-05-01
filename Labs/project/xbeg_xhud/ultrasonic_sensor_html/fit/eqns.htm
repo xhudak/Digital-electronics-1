@@ -1,0 +1,305 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="paths.js"></script><script src="eqns.js"></script><script>
+      var design = "ultrasonic_sensor";
+      var device = "XC2C256";
+      signals = new Array("centimeters_o0_SPECSIG","centimeters_o1_SPECSIG","centimeters_o2_SPECSIG","centimeters_o3_SPECSIG","decimeters_o0_SPECSIG","decimeters_o1_SPECSIG","decimeters_o2_SPECSIG","decimeters_o3_SPECSIG","meters_o0_SPECSIG","meters_o1_SPECSIG","meters_o2_SPECSIG","meters_o3_SPECSIG","trigger_o","trigger_pulse_generator_componentcounter_output0_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","trigger_pulse_generator_componentcounter_output14_SPECSIG","trigger_pulse_generator_componentcounter_output15_SPECSIG","trigger_pulse_generator_componentcounter_output16_SPECSIG","trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","trigger_pulse_generator_componentcounter_output1_SPECSIG","trigger_pulse_generator_componentcounter_output20_SPECSIG","trigger_pulse_generator_componentcounter_output21_SPECSIG","trigger_pulse_generator_componentcounter_output22_SPECSIG","trigger_pulse_generator_componentcounter_output23_SPECSIG","trigger_pulse_generator_componentcounter_output2_SPECSIG","trigger_pulse_generator_componentcounter_output3_SPECSIG","trigger_pulse_generator_componentcounter_output4_SPECSIG","trigger_pulse_generator_componentcounter_output5_SPECSIG","trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","trigger_pulse_generator_componentcounter_output9_SPECSIG");
+      sigNegs = new Array("OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF");
+      sigTypes = new Array("","","","","","","","","","","","","","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF","DFF");
+
+      
+           iostyle["clock_i"]=new Array("KPR");
+        
+        specSig["b_SPECSIG"]=new Array("(b)");
+      
+        specSig["trigger_pulse_generator_componentcounter_output1_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<1>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output17_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<17>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output16_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<16>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output15_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<15>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output14_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<14>");
+      
+        specSig["centimeters_o0_SPECSIG"]=new Array("centimeters_o<0>");
+      
+        specSig["centimeters_o1_SPECSIG"]=new Array("centimeters_o<1>");
+      
+        specSig["centimeters_o2_SPECSIG"]=new Array("centimeters_o<2>");
+      
+        specSig["centimeters_o3_SPECSIG"]=new Array("centimeters_o<3>");
+      
+        specSig["decimeters_o0_SPECSIG"]=new Array("decimeters_o<0>");
+      
+        specSig["decimeters_o1_SPECSIG"]=new Array("decimeters_o<1>");
+      
+        specSig["decimeters_o2_SPECSIG"]=new Array("decimeters_o<2>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output9_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<9>");
+      
+        specSig["decimeters_o3_SPECSIG"]=new Array("decimeters_o<3>");
+      
+        specSig["meters_o0_SPECSIG"]=new Array("meters_o<0>");
+      
+        specSig["meters_o1_SPECSIG"]=new Array("meters_o<1>");
+      
+        specSig["meters_o2_SPECSIG"]=new Array("meters_o<2>");
+      
+        specSig["meters_o3_SPECSIG"]=new Array("meters_o<3>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output11_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<11>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output8_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<8>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output6_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<6>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output4_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<4>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output19_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<19>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output18_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<18>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output13_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<13>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output12_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<12>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output10_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<10>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output0_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<0>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output20_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<20>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output21_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<21>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output22_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<22>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output23_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<23>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output2_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<2>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output3_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<3>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output5_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<5>");
+      
+        specSig["trigger_pulse_generator_componentcounter_output7_SPECSIG"]=new Array("trigger_pulse_generator_component/counter_output<7>");
+      
+            pterms["FB1_0"]=new Array("/trigger_pulse_generator_componentcounter_output4_SPECSIG","/trigger_pulse_generator_componentcounter_output5_SPECSIG","trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","/trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","/trigger_pulse_generator_componentcounter_output14_SPECSIG","/trigger_pulse_generator_componentcounter_output15_SPECSIG","/trigger_pulse_generator_componentcounter_output16_SPECSIG","/trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","/trigger_pulse_generator_componentcounter_output20_SPECSIG","/trigger_pulse_generator_componentcounter_output21_SPECSIG","/trigger_pulse_generator_componentcounter_output22_SPECSIG","/trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","/trigger_pulse_generator_componentcounter_output9_SPECSIG","/trigger_pulse_generator_componentcounter_output23_SPECSIG");
+          
+            pterms["FB1_1"]=new Array("trigger_pulse_generator_componentcounter_output0_SPECSIG","/trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","/trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","/trigger_pulse_generator_componentcounter_output14_SPECSIG","/trigger_pulse_generator_componentcounter_output15_SPECSIG","/trigger_pulse_generator_componentcounter_output16_SPECSIG","/trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","/trigger_pulse_generator_componentcounter_output20_SPECSIG","/trigger_pulse_generator_componentcounter_output21_SPECSIG","/trigger_pulse_generator_componentcounter_output22_SPECSIG","/trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","/trigger_pulse_generator_componentcounter_output9_SPECSIG","/trigger_pulse_generator_componentcounter_output23_SPECSIG");
+          
+            pterms["FB1_2"]=new Array("trigger_pulse_generator_componentcounter_output4_SPECSIG","/trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","/trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","/trigger_pulse_generator_componentcounter_output14_SPECSIG","/trigger_pulse_generator_componentcounter_output15_SPECSIG","/trigger_pulse_generator_componentcounter_output16_SPECSIG","/trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","/trigger_pulse_generator_componentcounter_output20_SPECSIG","/trigger_pulse_generator_componentcounter_output21_SPECSIG","/trigger_pulse_generator_componentcounter_output22_SPECSIG","/trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","/trigger_pulse_generator_componentcounter_output9_SPECSIG","/trigger_pulse_generator_componentcounter_output23_SPECSIG");
+          
+            pterms["FB1_3"]=new Array("trigger_pulse_generator_componentcounter_output5_SPECSIG","/trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","/trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","/trigger_pulse_generator_componentcounter_output14_SPECSIG","/trigger_pulse_generator_componentcounter_output15_SPECSIG","/trigger_pulse_generator_componentcounter_output16_SPECSIG","/trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","/trigger_pulse_generator_componentcounter_output20_SPECSIG","/trigger_pulse_generator_componentcounter_output21_SPECSIG","/trigger_pulse_generator_componentcounter_output22_SPECSIG","/trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","/trigger_pulse_generator_componentcounter_output9_SPECSIG","/trigger_pulse_generator_componentcounter_output23_SPECSIG");
+          
+            pterms["FB1_4"]=new Array("/trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","/trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","/trigger_pulse_generator_componentcounter_output14_SPECSIG","/trigger_pulse_generator_componentcounter_output15_SPECSIG","/trigger_pulse_generator_componentcounter_output16_SPECSIG","/trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","trigger_pulse_generator_componentcounter_output1_SPECSIG","/trigger_pulse_generator_componentcounter_output20_SPECSIG","/trigger_pulse_generator_componentcounter_output21_SPECSIG","/trigger_pulse_generator_componentcounter_output22_SPECSIG","/trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","/trigger_pulse_generator_componentcounter_output9_SPECSIG","/trigger_pulse_generator_componentcounter_output23_SPECSIG");
+          
+            pterms["FB1_5"]=new Array("/trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","/trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","/trigger_pulse_generator_componentcounter_output14_SPECSIG","/trigger_pulse_generator_componentcounter_output15_SPECSIG","/trigger_pulse_generator_componentcounter_output16_SPECSIG","/trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","/trigger_pulse_generator_componentcounter_output20_SPECSIG","/trigger_pulse_generator_componentcounter_output21_SPECSIG","/trigger_pulse_generator_componentcounter_output22_SPECSIG","trigger_pulse_generator_componentcounter_output2_SPECSIG","/trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","/trigger_pulse_generator_componentcounter_output9_SPECSIG","/trigger_pulse_generator_componentcounter_output23_SPECSIG");
+          
+            pterms["FB1_6"]=new Array("/trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","/trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","/trigger_pulse_generator_componentcounter_output14_SPECSIG","/trigger_pulse_generator_componentcounter_output15_SPECSIG","/trigger_pulse_generator_componentcounter_output16_SPECSIG","/trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","/trigger_pulse_generator_componentcounter_output20_SPECSIG","/trigger_pulse_generator_componentcounter_output21_SPECSIG","/trigger_pulse_generator_componentcounter_output22_SPECSIG","trigger_pulse_generator_componentcounter_output3_SPECSIG","/trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","/trigger_pulse_generator_componentcounter_output9_SPECSIG","/trigger_pulse_generator_componentcounter_output23_SPECSIG");
+          
+            pterms["FB1_13"]=new Array("trigger_pulse_generator_componentcounter_output4_SPECSIG","/trigger_pulse_generator_componentcounter_output0_SPECSIG","/trigger_pulse_generator_componentcounter_output5_SPECSIG","trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","/trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","/trigger_pulse_generator_componentcounter_output14_SPECSIG","/trigger_pulse_generator_componentcounter_output15_SPECSIG","/trigger_pulse_generator_componentcounter_output16_SPECSIG","/trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","/trigger_pulse_generator_componentcounter_output1_SPECSIG","/trigger_pulse_generator_componentcounter_output20_SPECSIG","/trigger_pulse_generator_componentcounter_output21_SPECSIG","/trigger_pulse_generator_componentcounter_output22_SPECSIG","/trigger_pulse_generator_componentcounter_output2_SPECSIG","/trigger_pulse_generator_componentcounter_output3_SPECSIG","/trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","/trigger_pulse_generator_componentcounter_output9_SPECSIG","/trigger_pulse_generator_componentcounter_output23_SPECSIG");
+          
+            pterms["FB1_22"]=new Array("trigger_pulse_generator_componentcounter_output4_SPECSIG","/trigger_pulse_generator_componentcounter_output0_SPECSIG","/trigger_pulse_generator_componentcounter_output5_SPECSIG","trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","/trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","/trigger_pulse_generator_componentcounter_output14_SPECSIG","/trigger_pulse_generator_componentcounter_output15_SPECSIG","/trigger_pulse_generator_componentcounter_output16_SPECSIG","/trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","/trigger_pulse_generator_componentcounter_output1_SPECSIG","/trigger_pulse_generator_componentcounter_output20_SPECSIG","/trigger_pulse_generator_componentcounter_output21_SPECSIG","/trigger_pulse_generator_componentcounter_output22_SPECSIG","/trigger_pulse_generator_componentcounter_output2_SPECSIG","/trigger_pulse_generator_componentcounter_output3_SPECSIG","/trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","/trigger_pulse_generator_componentcounter_output9_SPECSIG","/trigger_pulse_generator_componentcounter_output23_SPECSIG");
+          
+            pterms["FB1_28"]=new Array("trigger_pulse_generator_componentcounter_output4_SPECSIG","/trigger_pulse_generator_componentcounter_output0_SPECSIG","/trigger_pulse_generator_componentcounter_output5_SPECSIG","trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","/trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","/trigger_pulse_generator_componentcounter_output14_SPECSIG","/trigger_pulse_generator_componentcounter_output15_SPECSIG","/trigger_pulse_generator_componentcounter_output16_SPECSIG","/trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","/trigger_pulse_generator_componentcounter_output1_SPECSIG","/trigger_pulse_generator_componentcounter_output20_SPECSIG","/trigger_pulse_generator_componentcounter_output21_SPECSIG","/trigger_pulse_generator_componentcounter_output22_SPECSIG","/trigger_pulse_generator_componentcounter_output2_SPECSIG","/trigger_pulse_generator_componentcounter_output3_SPECSIG","/trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","/trigger_pulse_generator_componentcounter_output9_SPECSIG","/trigger_pulse_generator_componentcounter_output23_SPECSIG");
+          
+            pterms["FB1_31"]=new Array("trigger_pulse_generator_componentcounter_output4_SPECSIG","/trigger_pulse_generator_componentcounter_output0_SPECSIG","/trigger_pulse_generator_componentcounter_output5_SPECSIG","trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","/trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","/trigger_pulse_generator_componentcounter_output14_SPECSIG","/trigger_pulse_generator_componentcounter_output15_SPECSIG","/trigger_pulse_generator_componentcounter_output16_SPECSIG","/trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","/trigger_pulse_generator_componentcounter_output1_SPECSIG","/trigger_pulse_generator_componentcounter_output20_SPECSIG","/trigger_pulse_generator_componentcounter_output21_SPECSIG","/trigger_pulse_generator_componentcounter_output22_SPECSIG","/trigger_pulse_generator_componentcounter_output2_SPECSIG","/trigger_pulse_generator_componentcounter_output3_SPECSIG","/trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","/trigger_pulse_generator_componentcounter_output9_SPECSIG","/trigger_pulse_generator_componentcounter_output23_SPECSIG");
+          
+            pterms["FB1_34"]=new Array("trigger_pulse_generator_componentcounter_output4_SPECSIG","/trigger_pulse_generator_componentcounter_output0_SPECSIG","/trigger_pulse_generator_componentcounter_output5_SPECSIG","trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","/trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","/trigger_pulse_generator_componentcounter_output14_SPECSIG","/trigger_pulse_generator_componentcounter_output15_SPECSIG","/trigger_pulse_generator_componentcounter_output16_SPECSIG","/trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","/trigger_pulse_generator_componentcounter_output1_SPECSIG","/trigger_pulse_generator_componentcounter_output20_SPECSIG","/trigger_pulse_generator_componentcounter_output21_SPECSIG","/trigger_pulse_generator_componentcounter_output22_SPECSIG","/trigger_pulse_generator_componentcounter_output2_SPECSIG","/trigger_pulse_generator_componentcounter_output3_SPECSIG","/trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","/trigger_pulse_generator_componentcounter_output9_SPECSIG","/trigger_pulse_generator_componentcounter_output23_SPECSIG");
+          
+            pterms["FB1_37"]=new Array("trigger_pulse_generator_componentcounter_output4_SPECSIG","/trigger_pulse_generator_componentcounter_output0_SPECSIG","/trigger_pulse_generator_componentcounter_output5_SPECSIG","trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","/trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","/trigger_pulse_generator_componentcounter_output14_SPECSIG","/trigger_pulse_generator_componentcounter_output15_SPECSIG","/trigger_pulse_generator_componentcounter_output16_SPECSIG","/trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","/trigger_pulse_generator_componentcounter_output1_SPECSIG","/trigger_pulse_generator_componentcounter_output20_SPECSIG","/trigger_pulse_generator_componentcounter_output21_SPECSIG","/trigger_pulse_generator_componentcounter_output22_SPECSIG","/trigger_pulse_generator_componentcounter_output2_SPECSIG","/trigger_pulse_generator_componentcounter_output3_SPECSIG","/trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","/trigger_pulse_generator_componentcounter_output9_SPECSIG","/trigger_pulse_generator_componentcounter_output23_SPECSIG");
+          
+            pterms["FB1_40"]=new Array("trigger_pulse_generator_componentcounter_output4_SPECSIG","/trigger_pulse_generator_componentcounter_output0_SPECSIG","/trigger_pulse_generator_componentcounter_output5_SPECSIG","trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","/trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","/trigger_pulse_generator_componentcounter_output14_SPECSIG","/trigger_pulse_generator_componentcounter_output15_SPECSIG","/trigger_pulse_generator_componentcounter_output16_SPECSIG","/trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","/trigger_pulse_generator_componentcounter_output1_SPECSIG","/trigger_pulse_generator_componentcounter_output20_SPECSIG","/trigger_pulse_generator_componentcounter_output21_SPECSIG","/trigger_pulse_generator_componentcounter_output22_SPECSIG","/trigger_pulse_generator_componentcounter_output2_SPECSIG","/trigger_pulse_generator_componentcounter_output3_SPECSIG","/trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","/trigger_pulse_generator_componentcounter_output9_SPECSIG","/trigger_pulse_generator_componentcounter_output23_SPECSIG");
+          
+            pterms["FB1_52"]=new Array("trigger_pulse_generator_componentcounter_output4_SPECSIG","/trigger_pulse_generator_componentcounter_output0_SPECSIG","/trigger_pulse_generator_componentcounter_output5_SPECSIG","trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","/trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","/trigger_pulse_generator_componentcounter_output14_SPECSIG","/trigger_pulse_generator_componentcounter_output15_SPECSIG","/trigger_pulse_generator_componentcounter_output16_SPECSIG","/trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","/trigger_pulse_generator_componentcounter_output1_SPECSIG","/trigger_pulse_generator_componentcounter_output20_SPECSIG","/trigger_pulse_generator_componentcounter_output21_SPECSIG","/trigger_pulse_generator_componentcounter_output22_SPECSIG","/trigger_pulse_generator_componentcounter_output2_SPECSIG","/trigger_pulse_generator_componentcounter_output3_SPECSIG","/trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","/trigger_pulse_generator_componentcounter_output9_SPECSIG","/trigger_pulse_generator_componentcounter_output23_SPECSIG");
+          
+            pterms["FB1_55"]=new Array("trigger_pulse_generator_componentcounter_output4_SPECSIG","/trigger_pulse_generator_componentcounter_output0_SPECSIG","/trigger_pulse_generator_componentcounter_output5_SPECSIG","trigger_pulse_generator_componentcounter_output6_SPECSIG","trigger_pulse_generator_componentcounter_output10_SPECSIG","/trigger_pulse_generator_componentcounter_output11_SPECSIG","trigger_pulse_generator_componentcounter_output12_SPECSIG","trigger_pulse_generator_componentcounter_output13_SPECSIG","/trigger_pulse_generator_componentcounter_output14_SPECSIG","/trigger_pulse_generator_componentcounter_output15_SPECSIG","/trigger_pulse_generator_componentcounter_output16_SPECSIG","/trigger_pulse_generator_componentcounter_output17_SPECSIG","trigger_pulse_generator_componentcounter_output18_SPECSIG","trigger_pulse_generator_componentcounter_output19_SPECSIG","/trigger_pulse_generator_componentcounter_output1_SPECSIG","/trigger_pulse_generator_componentcounter_output20_SPECSIG","/trigger_pulse_generator_componentcounter_output21_SPECSIG","/trigger_pulse_generator_componentcounter_output22_SPECSIG","/trigger_pulse_generator_componentcounter_output2_SPECSIG","/trigger_pulse_generator_componentcounter_output3_SPECSIG","/trigger_pulse_generator_componentcounter_output7_SPECSIG","trigger_pulse_generator_componentcounter_output8_SPECSIG","/trigger_pulse_generator_componentcounter_output9_SPECSIG","/trigger_pulse_generator_componentcounter_output23_SPECSIG");
+          
+          d2["trigger_pulse_generator_componentcounter_output11_SPECSIG"]=new Array("GND");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output11_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output11_SPECSIG"]="GND";
+          d1["trigger_pulse_generator_componentcounter_output8_SPECSIG"]=new Array("FB1_13");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output8_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output8_SPECSIG"]="GND";
+          d2["trigger_o"]=new Array("FB1_2","FB1_1","FB1_3","FB1_4","FB1_5","FB1_6","FB1_0");
+          
+          d2["trigger_pulse_generator_componentcounter_output1_SPECSIG"]=new Array("GND");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output1_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output1_SPECSIG"]="GND";
+          d1["trigger_pulse_generator_componentcounter_output6_SPECSIG"]=new Array("FB1_13");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output6_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output6_SPECSIG"]="GND";
+          d2["trigger_pulse_generator_componentcounter_output17_SPECSIG"]=new Array("GND");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output17_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output17_SPECSIG"]="GND";
+          d1["trigger_pulse_generator_componentcounter_output4_SPECSIG"]=new Array("FB1_13");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output4_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output4_SPECSIG"]="GND";
+          d1["trigger_pulse_generator_componentcounter_output19_SPECSIG"]=new Array("FB1_13");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output19_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output19_SPECSIG"]="GND";
+          d1["trigger_pulse_generator_componentcounter_output18_SPECSIG"]=new Array("FB1_13");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output18_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output18_SPECSIG"]="GND";
+          d1["trigger_pulse_generator_componentcounter_output13_SPECSIG"]=new Array("FB1_13");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output13_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output13_SPECSIG"]="GND";
+          d1["trigger_pulse_generator_componentcounter_output12_SPECSIG"]=new Array("FB1_13");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output12_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output12_SPECSIG"]="GND";
+          d2["trigger_pulse_generator_componentcounter_output16_SPECSIG"]=new Array("GND");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output16_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output16_SPECSIG"]="GND";
+          d2["trigger_pulse_generator_componentcounter_output15_SPECSIG"]=new Array("GND");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output15_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output15_SPECSIG"]="GND";
+          d2["trigger_pulse_generator_componentcounter_output14_SPECSIG"]=new Array("GND");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output14_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output14_SPECSIG"]="GND";
+          d1["trigger_pulse_generator_componentcounter_output10_SPECSIG"]=new Array("FB1_13");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output10_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output10_SPECSIG"]="GND";
+          d1["trigger_pulse_generator_componentcounter_output0_SPECSIG"]=new Array("FB1_13");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output0_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output0_SPECSIG"]="GND";
+          d2["centimeters_o0_SPECSIG"]=new Array("GND");
+          
+          d2["trigger_pulse_generator_componentcounter_output7_SPECSIG"]=new Array("GND");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output7_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output7_SPECSIG"]="GND";
+          d2["centimeters_o1_SPECSIG"]=new Array("GND");
+          
+          d2["centimeters_o2_SPECSIG"]=new Array("GND");
+          
+          d2["centimeters_o3_SPECSIG"]=new Array("GND");
+          
+          d2["trigger_pulse_generator_componentcounter_output5_SPECSIG"]=new Array("GND");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output5_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output5_SPECSIG"]="GND";
+          d2["trigger_pulse_generator_componentcounter_output3_SPECSIG"]=new Array("GND");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output3_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output3_SPECSIG"]="GND";
+          d2["trigger_pulse_generator_componentcounter_output2_SPECSIG"]=new Array("GND");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output2_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output2_SPECSIG"]="GND";
+          d2["trigger_pulse_generator_componentcounter_output23_SPECSIG"]=new Array("GND");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output23_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output23_SPECSIG"]="GND";
+          d2["trigger_pulse_generator_componentcounter_output22_SPECSIG"]=new Array("GND");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output22_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output22_SPECSIG"]="GND";
+          d2["trigger_pulse_generator_componentcounter_output21_SPECSIG"]=new Array("GND");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output21_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output21_SPECSIG"]="GND";
+          d2["decimeters_o0_SPECSIG"]=new Array("GND");
+          
+          d2["decimeters_o1_SPECSIG"]=new Array("GND");
+          
+          d2["decimeters_o2_SPECSIG"]=new Array("GND");
+          
+          d2["trigger_pulse_generator_componentcounter_output9_SPECSIG"]=new Array("GND");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output9_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output9_SPECSIG"]="GND";
+          d2["trigger_pulse_generator_componentcounter_output20_SPECSIG"]=new Array("GND");
+          
+              gblclk["trigger_pulse_generator_componentcounter_output20_SPECSIG"]=new Array("clock_i");
+            prld["trigger_pulse_generator_componentcounter_output20_SPECSIG"]="GND";
+          d2["decimeters_o3_SPECSIG"]=new Array("GND");
+          
+          d2["meters_o0_SPECSIG"]=new Array("GND");
+          
+          d2["meters_o1_SPECSIG"]=new Array("GND");
+          
+          d2["meters_o2_SPECSIG"]=new Array("GND");
+          
+          d2["meters_o3_SPECSIG"]=new Array("GND");
+          
+
+      uimSignals = new Array();
+
+      uimSigNegs = new Array();
+
+      uimPterms = new Array();
+      
+
+      
+        function getEqnList() {
+          var str = "<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>";
+          str += "<center><h3>Equations</h3></center>";
+          str += "<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>";
+          for (s=0; s<uimSignals.length; s++) {
+            str += "<tr><td>";
+            str += retUimEqn(uimSignals[s]);
+            str += "</td></tr>";
+          }
+          for (s=0; s<signals.length; s++) {
+            str += "<tr><td>";
+            str += retEqn(signals[s]);
+            str += "</td></tr>";
+          }
+
+          var legend = retLegend();
+		      if (legend != "") {
+		        str += "<tr><td>" + legend + "</td></tr>";
+		      }
+
+          str += "</table>";
+          str += "<form><span class='pgRef'>";
+
+          if (!parent.leftnav.IsNS()) {
+            str += "<table width='90%' align='center'>";
+            str += "<tr><td align='left'><input type='button' value='back to top' ";
+            str += "onclick='javascript:parent.leftnav.showEqnAll()' ";
+            str += "onmouseover=\"window.status='goto top of page'; return true;\" ";
+            str += "onmouseout=\"window.status=''\">";
+            str += "</td>";
+            str += "<td align='right'>";
+            str += "<input type='button' value='print page' ";
+            str += "onclick='javascript:window.print()' ";
+            str += "onmouseover=\"window.status='print page'; return true;\" ";
+            str += "onmouseout=\"window.status=''\">";
+            str += "</td>";
+            str += "</tr></table>";
+          }
+          else {
+            str += "<table width='90%' align='center'>";
+            str += "<tr><td align='left'><a href='javascript:parent.leftnav.showEqnAll()'>back to top</a>";
+            str += "</td>";
+            str += "<td align='right'>";
+            str += "<a href='javascript:window.print()'>";
+            str += "print page</a>";
+            str += "</td>";
+            str += "</tr></table>";
+          }
+
+          str += "</span></form>";
+          str += "</body></html>";
+          return str;
+        }
+      
+    </script>
+</head></html>

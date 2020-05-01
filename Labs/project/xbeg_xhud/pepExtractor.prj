@@ -1,0 +1,5 @@
+work	"counter.vhd"
+work	"double_dabble.vhd"
+work	"pulse_to_distance.vhd"
+work	"trigger_pulse_generator.vhd"
+work	"ultrasonic_sensor.vhd"

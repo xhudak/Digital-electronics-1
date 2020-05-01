@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/ultrasonic_sensor.vhd" Line 13: Syntax error near &quot;<arg fmt="%s" index="1">end</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="37" delta="unknown" >"C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/ultrasonic_sensor.vhd" Line 39: &quot;<arg fmt="%s" index="1">clock_i</arg>&quot; cannot be used in this expression.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="37" delta="unknown" >"C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/ultrasonic_sensor.vhd" Line 40: &quot;<arg fmt="%s" index="1">clock_i</arg>&quot; cannot be used in this expression.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="56" delta="unknown" >"C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/ultrasonic_sensor.vhd" Line 43: &lt;<arg fmt="%s" index="1">trigger_o</arg>&gt; is not a signal.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="unknown" >"C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/ultrasonic_sensor.vhd" Line 15: Unit &lt;<arg fmt="%s" index="1">behavioral</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

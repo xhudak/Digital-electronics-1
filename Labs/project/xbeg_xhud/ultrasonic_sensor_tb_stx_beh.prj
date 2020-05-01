@@ -1,0 +1,6 @@
+vhdl isim_temp "counter.vhd"
+vhdl isim_temp "trigger_pulse_generator.vhd"
+vhdl isim_temp "pulse_to_distance.vhd"
+vhdl isim_temp "double_dabble.vhd"
+vhdl isim_temp "ultrasonic_sensor.vhd"
+vhdl isim_temp "ultrasonic_sensor_tb.vhd"

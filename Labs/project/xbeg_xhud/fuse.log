@@ -1,0 +1,14 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/ultrasonic_sensor_tb_isim_beh.exe -prj C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/ultrasonic_sensor_tb_beh.prj work.ultrasonic_sensor_tb 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/counter.vhd" into library work
+Parsing VHDL file "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/trigger_pulse_generator.vhd" into library work
+Parsing VHDL file "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/pulse_to_distance.vhd" into library work
+Parsing VHDL file "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/double_dabble.vhd" into library work
+Parsing VHDL file "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/ultrasonic_sensor.vhd" into library work
+Parsing VHDL file "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/ultrasonic_sensor_tb.vhd" into library work
+Starting static elaboration
+ERROR:HDLCompiler:1156 - "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/ultrasonic_sensor_tb.vhd" Line 22: Formal port <calculated_pulse> does not exist in entity <ultrasonic_sensor>.  Please compare the definition of block <ultrasonic_sensor> to its component declaration and its instantion to detect the mismatch.
+ERROR:Simulator:777 - Static elaboration of top level VHDL design unit ultrasonic_sensor_tb in library work failed

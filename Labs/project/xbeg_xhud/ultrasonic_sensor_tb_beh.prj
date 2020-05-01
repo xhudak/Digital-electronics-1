@@ -1,0 +1,6 @@
+vhdl work "counter.vhd"
+vhdl work "trigger_pulse_generator.vhd"
+vhdl work "pulse_to_distance.vhd"
+vhdl work "double_dabble.vhd"
+vhdl work "ultrasonic_sensor.vhd"
+vhdl work "ultrasonic_sensor_tb.vhd"

@@ -1,0 +1,10 @@
+AR ultrasonic_sensor behavioral "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/ultrasonic_sensor.vhd" sub00/vhpl09 1588302008
+EN double_dabble NULL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/double_dabble.vhd" sub00/vhpl06 1588302005
+EN ultrasonic_sensor NULL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/ultrasonic_sensor.vhd" sub00/vhpl08 1588302007
+AR trigger_pulse_generator behavioral "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/trigger_pulse_generator.vhd" sub00/vhpl03 1588302002
+EN pulse_to_distance NULL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/pulse_to_distance.vhd" sub00/vhpl04 1588302003
+EN trigger_pulse_generator NULL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/trigger_pulse_generator.vhd" sub00/vhpl02 1588302001
+AR counter behavioral "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/counter.vhd" sub00/vhpl01 1588302000
+EN counter NULL "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/counter.vhd" sub00/vhpl00 1588301999
+AR double_dabble behavioral "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/double_dabble.vhd" sub00/vhpl07 1588302006
+AR pulse_to_distance behavioral "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/pulse_to_distance.vhd" sub00/vhpl05 1588302004

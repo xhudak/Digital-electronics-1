@@ -1,0 +1,50 @@
+Pin Freeze File:  version P.20131013
+
+2C256144 XC2C256-6-TQ144
+clock_i S:PIN32
+centimeters_o<0> S:PIN2
+centimeters_o<1> S:PIN3
+centimeters_o<2> S:PIN4
+centimeters_o<3> S:PIN5
+decimeters_o<0> S:PIN6
+decimeters_o<1> S:PIN7
+decimeters_o<2> S:PIN9
+decimeters_o<3> S:PIN136
+meters_o<0> S:PIN135
+meters_o<1> S:PIN134
+meters_o<2> S:PIN133
+meters_o<3> S:PIN132
+trigger_o S:PIN143
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 trigger_pulse_generator_component/counter_output<11> trigger_pulse_generator_component/counter_output<8> trigger_o trigger_pulse_generator_component/counter_output<1>
+		 trigger_pulse_generator_component/counter_output<6> trigger_pulse_generator_component/counter_output<17> trigger_pulse_generator_component/counter_output<4> trigger_pulse_generator_component/counter_output<19>
+		 trigger_pulse_generator_component/counter_output<18> trigger_pulse_generator_component/counter_output<13> trigger_pulse_generator_component/counter_output<12> trigger_pulse_generator_component/counter_output<16>
+		 trigger_pulse_generator_component/counter_output<15> trigger_pulse_generator_component/counter_output<14> trigger_pulse_generator_component/counter_output<10> trigger_pulse_generator_component/counter_output<0>
+		
+PARTITION FB2_1 centimeters_o<0> trigger_pulse_generator_component/counter_output<7> centimeters_o<1> centimeters_o<2>
+		 centimeters_o<3> trigger_pulse_generator_component/counter_output<5> trigger_pulse_generator_component/counter_output<3> trigger_pulse_generator_component/counter_output<2>
+		 trigger_pulse_generator_component/counter_output<23> trigger_pulse_generator_component/counter_output<22> trigger_pulse_generator_component/counter_output<21> decimeters_o<0>
+		 decimeters_o<1> decimeters_o<2> trigger_pulse_generator_component/counter_output<9> trigger_pulse_generator_component/counter_output<20>
+		
+PARTITION FB3_1 decimeters_o<3> meters_o<0> meters_o<1>
+PARTITION FB3_5 meters_o<2>
+PARTITION FB3_14 meters_o<3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
