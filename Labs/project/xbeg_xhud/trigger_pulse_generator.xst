@@ -1,5 +1,0 @@
-set -tmpdir "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Digital-electronics-1-alkanan/Labs/project/xbeg_xhud/xst"
-elaborate
--ifn trigger_pulse_generator.prj
--ifmt mixed
