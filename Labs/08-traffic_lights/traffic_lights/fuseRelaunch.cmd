@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Miestne Lab/08-traffic lights/traffic_lights/top_tb_isim_beh.exe" -prj "C:/Users/mojos/OneDrive/Plocha/SKOLA/VUT FEKT/2. rocnik/Letny semester/DE1/Labaky/Miestne Lab/08-traffic lights/traffic_lights/top_tb_beh.prj" "work.top_tb" 
